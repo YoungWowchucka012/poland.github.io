@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+.header {
+  padding: 30px;
+  text-align: center;
+  background-image: url("p.jpg");
+}
+
+.header h1 {
+  font-size: 50px;
+  color: #333;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+.img {
+  width: 100%;
+  padding: 0px;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Poland</h1>
+</div>
+<div class="topnav">
+  <a href="index.html">News</a>
+  <a href="index2.html">About</a>
+  <a href="index.html" style="float:right">Contact</a>
+</div>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>History</h2>
+      <div class="img" style="height:200px;"><img src="o2.jpg" height="100%"></div>
+      <p>The history of Poland has its roots in the early migrations of Slavs, who established permanent West Slavic settlements in the Polish lands during the Early Middle Ages.[1] The first ruling dynasty, the Piasts, emerged by the 10th century AD. Duke Mieszko I (d. 992) is considered the de facto creator of the Polish state and is widely recognized for the adoption of Western Christianity that followed his baptism in 966.</p>
+    </div>
+    <div class="card">
+      <h2>About Poland</h2>
+      <div class="img" style="height:200px;"><img src="w.jpg" height="100%"></div>
+      <p>The establishment of the Polish state can be traced back to AD 966, when Mieszko I, ruler of the realm coextensive with the territory of present-day Poland, converted to Christianity. The Kingdom of Poland was founded in 1025, and in 1569 it cemented its longstanding political association with the Grand Duchy of Lithuania by signing the Union of Lublin. </p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Flag</h2>
+      <div class="img" style="height:100px;"><img src="f.png" height="100%"></div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>instagram: @lidia_andriivna29</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h5>WOW Teacher, Лисецький НВК, 2019</h5>
+</div>
+</body>
+</html>
